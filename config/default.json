@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "jwtSecret": "maxim mern test 01.01.2021",
+  "mongoUri": "mongodb+srv://maxim:admin@cluster0.4xwdz.mongodb.net/app?retryWrites=true&w=majority"
+}
