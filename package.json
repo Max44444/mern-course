@@ -1,0 +1,14 @@
+{
+  "name": "mern-template",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Maxim Skorokhodov <max22a4y3@gmail.com>",
+  "license": "ISC"
+}
