@@ -44,7 +44,7 @@ export const AuthPage = () => {
         <h1>Shrink the link</h1>
         <div className="card blue darken-1">
         <div className="card-content white-text">
-          <span className="card-title">Authrization</span>
+          <span className="card-title">Authorization</span>
           <div>
 
             <div className="input-field">
@@ -54,6 +54,7 @@ export const AuthPage = () => {
                 type="text"
                 name="email"
                 className="yellow-input"
+                value={form.email}
                 onChange={changeHandler}
               />
               <label htmlFor="email">Email</label>
@@ -66,6 +67,7 @@ export const AuthPage = () => {
                 type="password"
                 name="password"
                 className="yellow-input"
+                value={form.password}
                 onChange={changeHandler}
               />
               <label htmlFor="password">Password</label>
